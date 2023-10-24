@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Cabezera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(233, 200, 230);
+    font-size: 14px;
+    height: 150px;
+}
+
+.Primer{
+    padding-left: 12px;
+    font-size: 45px;
+    color: white;
+}
+
+.Fecha{
+    padding-right: 12px;
+    font-size: 25px;
+}
