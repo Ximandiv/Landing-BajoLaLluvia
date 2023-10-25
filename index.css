@@ -8,17 +8,50 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(233, 200, 230);
-    font-size: 14px;
+    font-size: 12px;
     height: 150px;
+    width: 100%;
 }
 
 .Primer{
     padding-left: 12px;
-    font-size: 45px;
+    font-size: 42px;
     color: white;
 }
 
 .Fecha{
     padding-right: 12px;
-    font-size: 25px;
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Primer{
+        font-size: 16px;
+        padding-left: 0;
+    }
+
+    .Cabezera{
+        font-size: 4px;
+    }
+
+    .Fecha{
+        font-size: 8px;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .Primer{
+        font-size: 24px;
+        padding-left: 6px;
+    }
+
+    .Cabezera{
+        font-size: 10px;
+    }
+
+    .Fecha{
+        font-size: 13px;
+        padding-right: 6px;
+    }
 }
