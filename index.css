@@ -10,7 +10,7 @@
     background-color: rgb(233, 200, 230);
     font-size: 12px;
     height: 125px;
-    width: 100%;
+    width: 100vw;
 }
 
 .Primer{
@@ -26,6 +26,52 @@
 
 .Congreso{
     padding-right: 12px;
+}
+
+.Navegador{
+    background-color: rgb(194, 168, 192);
+    height: 68px;
+    width: 100vw;
+}
+
+.Navegador ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: 100vw;
+    height: 100%;
+    align-items: center;
+}
+.Navegador ul li{
+    background-color: rgb(206, 16, 206);
+    width: 150px;
+    height: 68px;
+    line-height: 60px;
+}
+.Navegador ul a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+main{
+    background-color: rgb(233, 200, 230);
+    min-height: 645px;
+}
+
+footer{
+    background-color: rgb(136, 41, 136);
+    min-height: 101px;
+}
+
+@media only screen and (max-width: 430px){
+    main{
+        width: 200vw;
+    }
+    footer{
+        height: 19.5vh;
+        width: 150vw;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -45,6 +91,10 @@
 }
 
 @media only screen and (max-width: 980px){
+    .Cabezera{
+        width: 110vw;
+    }
+
     .Primer{
         font-size: 24px;
         padding-left: 6px;
@@ -57,5 +107,25 @@
     .Fecha{
         font-size: 13px;
         padding-right: 6px;
+    }
+    
+    .Navegador{
+        font-size: 12px;
+        width: 110vw;
+    }
+    .Navegador ul{
+        width: 110vw;
+    }
+    .Navegador ul li{
+        width: 80px;
+    }
+
+    main{
+        height: 80vh;
+        width: 110vw;
+    }
+    footer{
+        height: 20.9vh;
+        width: 110vw;
     }
 }
