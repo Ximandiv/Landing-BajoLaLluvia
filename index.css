@@ -43,10 +43,11 @@
     align-items: center;
 }
 .Navegador ul li{
-    background-color: rgb(206, 16, 206);
+    background-color: rgb(162, 16, 206);
     width: 150px;
-    height: 68px;
-    line-height: 60px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 20px;
 }
 .Navegador ul a{
     color: white;
@@ -60,7 +61,7 @@ main{
 }
 
 footer{
-    background-color: rgb(136, 41, 136);
+    background-color: rgb(172, 105, 166);
     min-height: 101px;
 }
 
