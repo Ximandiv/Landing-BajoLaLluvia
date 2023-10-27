@@ -71,6 +71,9 @@ main article{
     text-align: center;
     border-radius: 20px;
 }
+.Programacion{
+    height: 300px;
+}
 
 main article header{
     border-bottom: 4px solid rgb(225, 126, 250);
@@ -82,9 +85,34 @@ main article p{
 }
 
 footer{
+    display: flex;
     background-color: rgb(172, 105, 166);
     min-height: 101px;
     width: 100vw;
+}
+footer figure{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45px;
+}
+.fig{
+    margin-left: 45vw;
+}
+footer figure span{
+    font-size: 25px;
+    align-self: center;
+}
+footer img{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+.cult{
+    width: 200px;
+}
+
+li{
+    list-style-type: none;
 }
 
 @media only screen and (max-width:338px){
@@ -95,7 +123,7 @@ footer{
 
     .Cabezera{
         font-size: 8px;
-        width: 180vw;
+        width: 380vw;
     }
 
     .Fecha{
@@ -103,31 +131,35 @@ footer{
         padding-right: 0;
     }
     .Navegador{
-        width: 180vw;
+        width: 380vw;
     }
     .Navegador ul{
-        width: 180vw;
+        width: 380vw;
     }
     .Navegador ul li{
         width: 80px;
     }
     main{
-        width: 180vw;
-        height: 135vh;
+        width: 380vw;
+        height: 350vh;
     }
     footer{
-        width: 180vw;
+        width: 380vw;
         height: 20vh;
     }
 
     main article{
         height: 320px;
-        width: 220px;
+        width: 320px;
         margin-left: 10px;
+        margin-top: 600px;
+    }
+    .Programacion{
+        height: 700px;
     }
 }
 
-@media only screen and (max-width: 430px) and (min-width:338px){
+@media only screen and (max-width: 480px) and (min-width:338px){
     .Primer{
         font-size: 22px;
         padding-left: 0;
@@ -135,7 +167,7 @@ footer{
 
     .Cabezera{
         font-size: 8px;
-        width: 120vw;
+        width: 280vw;
     }
 
     .Fecha{
@@ -143,30 +175,35 @@ footer{
         padding-right: 0;
     }
     .Navegador{
-        width: 120vw;
+        width: 280vw;
     }
     .Navegador ul{
-        width: 120vw;
+        width: 280vw;
     }
     .Navegador ul li{
         width: 80px;
     }
     main{
-        width: 120vw;
+        height: 240vh;
+        width: 280vw;
     }
     footer{
-        width: 120vw;
+        width: 280vw;
         height: 20vh;
     }
 
     main article{
         height: 380px;
-        width: 220px;
+        width: 280px;
         margin-left: 10px;
+        margin-top: 300px;
+    }
+    .Programacion{
+        height: 500px;
     }
 }
 
-@media only screen and (max-width: 640px) and (min-width: 430px){
+@media only screen and (max-width: 720px) and (min-width: 480px){
     .Primer{
         font-size: 22px;
         padding-left: 0;
@@ -174,7 +211,7 @@ footer{
 
     .Cabezera{
         font-size: 8px;
-        width: 120vw;
+        width: 220vw;
     }
 
     .Fecha{
@@ -182,32 +219,37 @@ footer{
         padding-right: 0;
     }
     .Navegador{
-        width: 120vw;
+        width: 220vw;
     }
     .Navegador ul{
-        width: 110vw;
+        width: 220vw;
     }
     .Navegador ul li{
-        width: 80px;
+        width: 150px;
     }
     main{
-        width: 120vw;
+        width: 220vw;
+        height: 180vh;
     }
     footer{
-        width: 120vw;
+        width: 220vw;
         height: 20vh;
     }
 
     main article{
-        height: 340px;
-        width: 220px;
+        height: 450px;
+        width: 380px;
         margin-left: 10px;
+        margin-top: 150px;
+    }
+    .Programacion{
+        height: 460px;
     }
 }
 
-@media only screen and (max-width: 980px) and (min-width: 640px){
+@media only screen and (min-width: 720px){
     .Cabezera{
-        width: 110vw;
+        width: 140vw;
     }
 
     .Primer{
@@ -226,26 +268,43 @@ footer{
     
     .Navegador{
         font-size: 12px;
-        width: 110vw;
+        width: 140vw;
     }
     .Navegador ul{
-        width: 110vw;
+        width: 140vw;
     }
     .Navegador ul li{
-        width: 80px;
+        width: 200px;
     }
 
     main{
-        height: 80vh;
-        width: 110vw;
+        height: 120vh;
+        width: 140vw;
     }
     main article{
-        height: 280px;
-        width: 300px;
+        height: 300px;
+        width: 600px;
         margin-left: 30px;
+        margin-top: 100px;
+    }
+    .Programacion{
+        height: 400px;
     }
     footer{
         height: 20.9vh;
-        width: 110vw;
+        width: 140vw;
+    }
+    footer figure{
+        display: flex;
+        flex-direction: row;
+        margin-left: 25px;
+    }
+    .fig{
+        margin-left: 25vw;
+    }
+    footer figure span{
+        font-size: 20px;
+        align-self: center;
+        margin-bottom: 90px;
     }
 }
