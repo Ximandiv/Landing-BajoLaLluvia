@@ -58,40 +58,154 @@
 main{
     background-color: rgb(233, 200, 230);
     min-height: 645px;
+    padding-top: 20px;
+    width: 100vw;
+}
+
+main article{
+    background-color: white;
+    height: 180px;
+    width: 780px;
+    margin-left: 185px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+main article header{
+    border-bottom: 4px solid rgb(225, 126, 250);
+    height: 30px;
+    padding-top: 10px;
+}
+main article p{
+    margin-top: 30px;
 }
 
 footer{
     background-color: rgb(172, 105, 166);
     min-height: 101px;
+    width: 100vw;
 }
 
-@media only screen and (max-width: 430px){
-    main{
-        width: 200vw;
-    }
-    footer{
-        height: 19.5vh;
-        width: 150vw;
-    }
-}
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:338px){
     .Primer{
-        font-size: 16px;
+        font-size: 22px;
         padding-left: 0;
     }
 
     .Cabezera{
-        font-size: 4px;
+        font-size: 8px;
+        width: 180vw;
     }
 
     .Fecha{
         font-size: 8px;
         padding-right: 0;
     }
+    .Navegador{
+        width: 180vw;
+    }
+    .Navegador ul{
+        width: 180vw;
+    }
+    .Navegador ul li{
+        width: 80px;
+    }
+    main{
+        width: 180vw;
+        height: 135vh;
+    }
+    footer{
+        width: 180vw;
+        height: 20vh;
+    }
+
+    main article{
+        height: 320px;
+        width: 220px;
+        margin-left: 10px;
+    }
 }
 
-@media only screen and (max-width: 980px){
+@media only screen and (max-width: 430px) and (min-width:338px){
+    .Primer{
+        font-size: 22px;
+        padding-left: 0;
+    }
+
+    .Cabezera{
+        font-size: 8px;
+        width: 120vw;
+    }
+
+    .Fecha{
+        font-size: 8px;
+        padding-right: 0;
+    }
+    .Navegador{
+        width: 120vw;
+    }
+    .Navegador ul{
+        width: 120vw;
+    }
+    .Navegador ul li{
+        width: 80px;
+    }
+    main{
+        width: 120vw;
+    }
+    footer{
+        width: 120vw;
+        height: 20vh;
+    }
+
+    main article{
+        height: 380px;
+        width: 220px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) and (min-width: 430px){
+    .Primer{
+        font-size: 22px;
+        padding-left: 0;
+    }
+
+    .Cabezera{
+        font-size: 8px;
+        width: 120vw;
+    }
+
+    .Fecha{
+        font-size: 8px;
+        padding-right: 0;
+    }
+    .Navegador{
+        width: 120vw;
+    }
+    .Navegador ul{
+        width: 110vw;
+    }
+    .Navegador ul li{
+        width: 80px;
+    }
+    main{
+        width: 120vw;
+    }
+    footer{
+        width: 120vw;
+        height: 20vh;
+    }
+
+    main article{
+        height: 340px;
+        width: 220px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 640px){
     .Cabezera{
         width: 110vw;
     }
@@ -124,6 +238,11 @@ footer{
     main{
         height: 80vh;
         width: 110vw;
+    }
+    main article{
+        height: 280px;
+        width: 300px;
+        margin-left: 30px;
     }
     footer{
         height: 20.9vh;
